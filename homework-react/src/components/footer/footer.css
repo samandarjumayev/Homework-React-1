@@ -1,0 +1,80 @@
+
+.subscribe {
+    height: auto;
+    padding: 20px 0;
+}
+.sub-info {
+    height: 100%;
+}
+
+.sub-card {
+    background-color: rgba(84, 84, 84, 0.075);
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px 0;
+}
+.sub-left>h2 {
+    font-size: 25px;
+}
+.sub-left>p {
+    color: rgb(66, 66, 66);
+}
+.sub-left label {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    height: 42px;
+    display: flex;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.sub-left label input {
+    height: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 12px;
+}
+
+.sub-btn {
+    background-color: var(--btn-back-color);
+    width: 80px;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sub-btn:active {
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+.sub-img {
+    height: 100%;
+}
+.sub-img img {
+    height: 100%;
+}
+
+
+
+.footer {
+    background-color: var(--main-color);
+    color: #fff;
+    height: 70px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    font-size: 17px;
+}
