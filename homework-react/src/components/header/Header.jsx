@@ -13,22 +13,22 @@ export default function Header(){
                 </div>
 
                 <ul className='nav'>
-                    <li>Home</li>
-                    <li>Brends</li>
-                    <li>Recent Products</li>
-                    <li>Contact</li>
-                    <li>About</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Brends</a></li>
+                    <li><a href="#">Recent Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
 
                 <ul className='menu'>
                     <li>
-                        <i className='fa-solid fa-search'></i>
+                        <a href="#"><i className='fa-solid fa-search'></i></a>
                     </li>
                     <li>
-                        <i className='fa-solid fa-user'></i>
+                        <a href="#"><i className='fa-solid fa-user'></i></a>
                     </li>
                     <li>
-                        <i className='fa-solid fa-cart-shopping'></i>
+                        <a href="#"><i className='fa-solid fa-cart-shopping'></i></a>
                     </li>
                 </ul>
 

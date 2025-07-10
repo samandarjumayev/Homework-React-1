@@ -1,0 +1,56 @@
+.banner {
+    height: 370px;
+}
+.banner-info {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.boxs {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.box {
+    background-color: rgba(112, 108, 108, 0.085);
+    display: flex;
+    align-items: center;
+    height: 200px;
+    gap: 9px;
+    padding: 12px 17px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.box:hover {
+    background-color: rgba(112, 108, 108, 0.216);
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.07);
+}
+
+.box:nth-child(2) .img img {
+    width: 160%;
+    margin-left: -30px;
+}
+.img {
+    width: 35%;
+}
+.img img {
+    width: 100%;
+    object-fit: contain;
+}
+.box div:last-child {
+    width: 65%;
+}
+.box h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.box p {
+    line-height: 17px;
+    color: rgb(60, 60, 60);
+}

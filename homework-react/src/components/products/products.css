@@ -1,0 +1,121 @@
+.products {
+    height: auto;
+}
+
+.products-info {
+    height: 100%;
+}
+
+.pro-subtitle {
+    text-align: center;
+    color: var(--btn-back-color);
+    font-weight: 600;
+    font-size: 17px;
+}
+.pro-title {
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 25px;
+}
+
+.cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.card {
+    background-color: rgba(101, 101, 101, 0.107);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: context-menu;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card:hover .card-icon {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card-top {
+    height: 75%;
+    position: relative;
+}
+.card-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-icon span {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card-icon span:first-child {
+    background-color: var(--btn-back-color);
+    color: #fff;
+}
+.card-icon span:last-child {
+    background-color: red;
+    color: #fff;
+}
+.card-icon span i {
+    margin-top: 3px;
+}
+.card-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-bottom {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-bottom del {
+    color: rgb(102, 102, 102);
+}
+
+.view-more {
+    margin: 25px 0;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view-more button {
+    height: 100%;
+    background-color: var(--btn-back-color);
+    width: 120px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 100%;
+}
+.view-more button:hover {
+    transform: scale(1.07);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.view-more button:active {
+    transition: 0.1s;
+    transform: scale(0.97);
+}
