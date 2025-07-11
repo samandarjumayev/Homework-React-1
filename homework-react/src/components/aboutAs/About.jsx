@@ -52,7 +52,7 @@ export default function About(){
                 </div>
 
                 <div className="slide-page">
-                    <input type="radio" name='slide' />
+                    <input type="radio" name='slide' checked />
                     <input type="radio" name='slide' />
                     <input type="radio" name='slide' />
                     <input type="radio" name='slide' />
